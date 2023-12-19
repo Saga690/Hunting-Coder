@@ -1,0 +1,42 @@
+.container {
+    max-width: 45vw;
+    margin: auto;
+}
+
+.mb3 {
+    margin-bottom: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formlabel {
+    padding: 7px;
+}
+
+.formtext {
+    font-size: 10px;
+    color: gray;
+    padding: 5px 4px;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.mainhead{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 40px;
+    background: var(--primary-glow);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        max-width: 90vw;
+    }
+}
